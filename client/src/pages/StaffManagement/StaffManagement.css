@@ -1,0 +1,64 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.staff-management {
+  margin: 20px;
+}
+
+.staff-management h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.staff-management h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.staff-management ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.staff-management li {
+  font-size: large;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.staff-management button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.staff-management button:hover {
+  background-color: #45a049;
+}
+
+.staff-management input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.staff-management input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+.staff-management .remove {
+  background-color: rgb(209, 76, 76);
+  margin-right: 10px;
+}
